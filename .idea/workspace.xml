@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae9e9f34-c190-45a1-b4c8-dcbab025633c" name="Changes" comment="Import statements, routes, and login form function">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ae9e9f34-c190-45a1-b4c8-dcbab025633c" name="Changes" comment="Add import validations">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,11 +82,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732164839946</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add import validations">
+      <option name="closed" value="true" />
+      <created>1732166120688</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1732166120688</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Import statements, routes, and login form function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import statements, routes, and login form function" />
+    <MESSAGE value="Add import validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add import validations" />
   </component>
 </project>
