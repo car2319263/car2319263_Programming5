@@ -25,3 +25,21 @@ def login_form():
     </form>
     '''
     return render_template_string(form_html)
+# Function to render HTML submit form
+def login_submit():
+    username = request.form['username']
+    password = request.form['password']
+
+    # Input validation
+
+    # Hash the password (not displayed)
+    hashed_password = bcrypt.generate_password_hash(password).decode('utf-8')
+
+    # Display success message
+    return f'''
+            <p>Username: {username}, Password: {password}</p></br></br></br>
+            <p>(Hashed password: {hashed_password}) </p>
+    '''
+# Run the application
+if __name__ == '__main__':
+    app.run()
